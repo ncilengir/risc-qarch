@@ -1,8 +1,9 @@
-# riscQarch
-Designed a basic computer that called **riscq**. **riscq** has registers, two memories, arithmetic and logic unit, control unit and bus system.
+
+# RISCQ
+Designed a basic computer that called **RISCQ**. **RISCQ** has registers, two memories, arithmetic and logic unit, control unit and bus system.
 
 ## Registers
-**riscq** has 9 registers which are Address Register, Program Counter, Input Register, Output
+**RISCQ** has 9 registers which are Address Register, Program Counter, Input Register, Output
 Register, Instruction Register and 4 general purpose registers.
 
 
@@ -45,7 +46,7 @@ In ALU, arithmetic and logical operations will be held. Its block diagram like t
 
 ![Arithmetic and Logic Unit](/img/ALU.PNG)
 
-##  riscQarch instruction set and microoperations table 
+##  Instruction set and micro-operations table 
 
 ### Instruction Set
 ![Instruction Set](/img/instructions.png)
@@ -57,6 +58,58 @@ In ALU, arithmetic and logical operations will be held. Its block diagram like t
 Control unit processes instructions to direct the micro-operations for computer's memories,
 registers and arithmetic/logic unit. Control unit consists of decoders and a number of control logic
 gates. It should produce operation signals and time periods for fetching, decoding and executing the instructions.
+
+ **Control Unit Figure;**
+
+![Control Unit Figure](/img/cu-fig.png)
+
+### Instructions and Sequences Counter & Inputs
+![Control Unit Counters](/img/CU-I.PNG)
+
+ - ***Also Sequences Counter Clear***
+ ![Control Unit SC](/img/CU-III.PNG)
+
+### ALU Operations
+![Control Unit ALU OPERATIONS](/img/cu-alu.png)
+
+### BUS Load/Read 
+ - LOAD
+ 
+  ![Control Unit BUS LOAD OPERATIONS](/img/cu-bus-load.png)
+ - READ
+ 
+  ![Control Unit  BUS READ  OPERATIONS](/img/cu-bus-read.png)
+  
+### Register Operations
+![Control Unit  OPERATIONS](/img/cu-register.png )
+
+### Program Counter Load Operation
+![Control Unit PC](/img/CU-V.PNG)
+
+### Other Operations (Instructions, program counter and etc.)
+ 1. 
+ 
+ ![Control Unit ](/img/CU-VI.PNG)
+ 
+ 2.
+ 
+ ![Control Unit ](/img/CU-VII.PNG)
+
+## Combined all components
+***Theoretically Figured***
+
+![RISCQ ](/img/all-fig.png)
+
+***When all components combined, system looks like that;***
+
+![RISCQ ](/img/ALL.PNG)
+
+## Compling and Running 
+
+#### Sample 
+![RISCQ Sample ](/img/sample.PNG)
+
+![RISCQ Sample 1](/img/sample1.PNG)
 
 
 
