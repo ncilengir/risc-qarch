@@ -40,7 +40,7 @@ Register, Instruction Register and 4 general purpose registers.
 
 
 ## Memories
-In DEUARC there is two memories which are instruction and data memories. Each has read
+In RISCQ there is two memories which are instruction and data memories. Each has read
 enable and data inputs. Data memory has also write enable input.
 1. Instruction Memory (32x11)
 2. Data Memory (32x4)
