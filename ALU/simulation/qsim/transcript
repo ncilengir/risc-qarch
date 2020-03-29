@@ -1,0 +1,25 @@
+# do ALU.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU_vlg_sample_tst
+# -- Compiling module ALU_vlg_check_tst
+# -- Compiling module ALU_vlg_vec_tst
+# 
+# Top level modules:
+# 	ALU_vlg_vec_tst
+# vsim -L cycloneiii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -voptargs=\"+acc\" -t 1ps -novopt work.ALU_vlg_vec_tst 
+# Loading work.ALU_vlg_vec_tst
+# Loading work.ALU
+# Loading cycloneiii_ver.cycloneiii_io_obuf
+# Loading cycloneiii_ver.cycloneiii_io_ibuf
+# Loading cycloneiii_ver.cycloneiii_lcell_comb
+# Loading work.ALU_vlg_sample_tst
+# Loading work.ALU_vlg_check_tst
+# Simulation passed !
+# ** Note: $finish    : Waveform.vwf.vt(234)
+#    Time: 1 us  Iteration: 0  Instance: /ALU_vlg_vec_tst/tb_out

@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="ALU">
+		<CBX_INST_ENTRY INSTANCE_NAME="|ALU|lpm_clshift1:inst8|lpm_clshift:LPM_CLSHIFT_component" CBX_FILE_NAME="lpm_clshift_ved.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ALU|lpm_constant0:inst11|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_6e6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ALU|lpm_mux0:inst|LPM_MUX:LPM_MUX_component" CBX_FILE_NAME="mux_j6e.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ALU|lpm_add_sub0:inst7|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_qdj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ALU|lpm_clshift0:inst4|lpm_clshift:LPM_CLSHIFT_component" CBX_FILE_NAME="lpm_clshift_ufc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ALU|lpm_constant0:inst10|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_6e6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ALU|lpm_constant0:inst12|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_6e6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ALU|lpm_constant0:inst9|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_6e6.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

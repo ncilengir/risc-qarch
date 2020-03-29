@@ -1,0 +1,13 @@
+LPM_DECODES=8
+LPM_TYPE=LPM_DECODE
+LPM_WIDTH=3
+DEVICE_FAMILY="Cyclone III"
+data
+eq
+eq
+eq
+eq
+eq
+eq
+eq
+eq

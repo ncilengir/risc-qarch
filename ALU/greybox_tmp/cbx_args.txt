@@ -1,0 +1,16 @@
+LPM_SIZE=9
+LPM_TYPE=LPM_MUX
+LPM_WIDTH=4
+LPM_WIDTHS=4
+DEVICE_FAMILY="Cyclone III"
+data
+data
+data
+data
+data
+data
+data
+data
+data
+sel
+result

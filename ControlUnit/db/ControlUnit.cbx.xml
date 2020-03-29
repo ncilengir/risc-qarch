@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="ControlUnit">
+		<CBX_INST_ENTRY INSTANCE_NAME="|ControlUnit|IR_DECODE:inst|lpm_decode:LPM_DECODE_component" CBX_FILE_NAME="decode_qqh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ControlUnit|REG_DECODE:inst5|lpm_decode:LPM_DECODE_component" CBX_FILE_NAME="decode_0af.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ControlUnit|SC:inst1212|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_k6i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ControlUnit|SC_DECODE:inst3|lpm_decode:LPM_DECODE_component" CBX_FILE_NAME="decode_5af.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

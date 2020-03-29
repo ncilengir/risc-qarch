@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/derectus/Documents/deuceng/computer-architecture/Projects/ALU/simulation/qsim
+vALU
+Z1 !s100 FAYSC0Cc[Zo^?IYbX_bN41
+Z2 I8EP4JOCSMJ]oEKXAD?Xh>2
+Z3 VKBj@`M_^SBECS_;c5E;@93
+Z4 d/home/derectus/Documents/deuceng/computer-architecture/Projects/ALU/simulation/qsim
+Z5 w1556137651
+Z6 8ALU.vo
+Z7 FALU.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|ALU.vo|
+Z10 o-work work -O0
+Z11 n@a@l@u
+!i10b 1
+!s85 0
+Z12 !s108 1556137652.415549
+Z13 !s107 ALU.vo|
+!s101 -O0
+vALU_vlg_check_tst
+!i10b 1
+Z14 !s100 eJd>7<GPm6kOdB_[UnKce3
+Z15 I9AllNDKTfCc2==okzF_5]2
+Z16 V2lZ0AoAR01RjZW2BM[dSY2
+R4
+Z17 w1556137644
+Z18 8Waveform.vwf.vt
+Z19 FWaveform.vwf.vt
+L0 63
+R8
+r1
+!s85 0
+31
+Z20 !s108 1556137652.451227
+Z21 !s107 Waveform.vwf.vt|
+Z22 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R10
+Z23 n@a@l@u_vlg_check_tst
+vALU_vlg_sample_tst
+!i10b 1
+Z24 !s100 7ke?8GiJ6F0:NS6d[8Al`2
+Z25 IO16HM8c`=cAPTE=f`74me2
+Z26 V2XOlIB6TC1<gRHibdcG_m1
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@a@l@u_vlg_sample_tst
+vALU_vlg_vec_tst
+!i10b 1
+!s100 95S<VG<BN^6UkPfcD36Bl2
+IILlUO5]71IOL5^cM@i2D>3
+Z28 V>bFnnU[^IecCM5^<l3;]W0
+R4
+R17
+R18
+R19
+Z29 L0 238
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 n@a@l@u_vlg_vec_tst

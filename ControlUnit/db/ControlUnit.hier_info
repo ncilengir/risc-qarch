@@ -1,0 +1,411 @@
+|ControlUnit
+ALU_SEL[0] <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+ALU_SEL[1] <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+ALU_SEL[2] <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+ALU_SEL[3] <= inst23.DB_MAX_OUTPUT_PORT_TYPE
+CLK => IR_DECODE:inst.clock
+CLK => SC:inst1212.clock
+IR[0] => ~NO_FANOUT~
+IR[1] => ~NO_FANOUT~
+IR[2] => ~NO_FANOUT~
+IR[3] => ~NO_FANOUT~
+IR[4] => REG_DECODE:inst5.data[0]
+IR[5] => inst108.IN0
+IR[5] => REG_DECODE:inst5.data[1]
+IR[5] => inst106.IN0
+IR[6] => IR_DECODE:inst.data[0]
+IR[7] => IR_DECODE:inst.data[1]
+IR[8] => IR_DECODE:inst.data[2]
+IR[9] => IR_DECODE:inst.data[3]
+IR[10] => inst3232.IN0
+IR[10] => inst132.IN1
+IR[10] => inst51.IN3
+IR[10] => inst52.IN0
+IR[10] => inst36.IN0
+IR[10] => inst100.IN0
+IR[10] => inst5512.IN0
+IR[10] => inst57.IN0
+IR[10] => inst41.IN2
+BUS_SEL13 <= inst131.DB_MAX_OUTPUT_PORT_TYPE
+V => inst51.IN2
+V => inst5512.IN1
+BUS_SEL12 <= inst130.DB_MAX_OUTPUT_PORT_TYPE
+BUS_SEL11 <= inst129.DB_MAX_OUTPUT_PORT_TYPE
+BUS_SEL10 <= inst128.DB_MAX_OUTPUT_PORT_TYPE
+LOADSEL[0] <= inst27.DB_MAX_OUTPUT_PORT_TYPE
+LOADSEL[1] <= inst26.DB_MAX_OUTPUT_PORT_TYPE
+LOADSEL[2] <= inst25.DB_MAX_OUTPUT_PORT_TYPE
+LOADSEL[3] <= inst28.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ControlUnit|74147:inst13
+DN <= 68.DB_MAX_OUTPUT_PORT_TYPE
+8N => 63.IN0
+9N => 65.IN0
+CN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+4N => 57.IN0
+5N => 60.IN0
+6N => 62.IN0
+7N => 114.IN0
+BN <= 8.DB_MAX_OUTPUT_PORT_TYPE
+2N => 55.IN0
+3N => 56.IN0
+AN <= 7.DB_MAX_OUTPUT_PORT_TYPE
+1N => 53.IN0
+
+
+|ControlUnit|IR_DECODE:inst
+clken => lpm_decode:LPM_DECODE_component.clken
+clock => lpm_decode:LPM_DECODE_component.clock
+data[0] => lpm_decode:LPM_DECODE_component.data[0]
+data[1] => lpm_decode:LPM_DECODE_component.data[1]
+data[2] => lpm_decode:LPM_DECODE_component.data[2]
+data[3] => lpm_decode:LPM_DECODE_component.data[3]
+eq0 <= lpm_decode:LPM_DECODE_component.eq[0]
+eq1 <= lpm_decode:LPM_DECODE_component.eq[1]
+eq10 <= lpm_decode:LPM_DECODE_component.eq[10]
+eq11 <= lpm_decode:LPM_DECODE_component.eq[11]
+eq12 <= lpm_decode:LPM_DECODE_component.eq[12]
+eq13 <= lpm_decode:LPM_DECODE_component.eq[13]
+eq14 <= lpm_decode:LPM_DECODE_component.eq[14]
+eq15 <= lpm_decode:LPM_DECODE_component.eq[15]
+eq2 <= lpm_decode:LPM_DECODE_component.eq[2]
+eq3 <= lpm_decode:LPM_DECODE_component.eq[3]
+eq4 <= lpm_decode:LPM_DECODE_component.eq[4]
+eq5 <= lpm_decode:LPM_DECODE_component.eq[5]
+eq6 <= lpm_decode:LPM_DECODE_component.eq[6]
+eq7 <= lpm_decode:LPM_DECODE_component.eq[7]
+eq8 <= lpm_decode:LPM_DECODE_component.eq[8]
+eq9 <= lpm_decode:LPM_DECODE_component.eq[9]
+
+
+|ControlUnit|IR_DECODE:inst|lpm_decode:LPM_DECODE_component
+data[0] => decode_qqh:auto_generated.data[0]
+data[1] => decode_qqh:auto_generated.data[1]
+data[2] => decode_qqh:auto_generated.data[2]
+data[3] => decode_qqh:auto_generated.data[3]
+enable => ~NO_FANOUT~
+clock => decode_qqh:auto_generated.clock
+aclr => ~NO_FANOUT~
+clken => decode_qqh:auto_generated.clken
+eq[0] <= decode_qqh:auto_generated.eq[0]
+eq[1] <= decode_qqh:auto_generated.eq[1]
+eq[2] <= decode_qqh:auto_generated.eq[2]
+eq[3] <= decode_qqh:auto_generated.eq[3]
+eq[4] <= decode_qqh:auto_generated.eq[4]
+eq[5] <= decode_qqh:auto_generated.eq[5]
+eq[6] <= decode_qqh:auto_generated.eq[6]
+eq[7] <= decode_qqh:auto_generated.eq[7]
+eq[8] <= decode_qqh:auto_generated.eq[8]
+eq[9] <= decode_qqh:auto_generated.eq[9]
+eq[10] <= decode_qqh:auto_generated.eq[10]
+eq[11] <= decode_qqh:auto_generated.eq[11]
+eq[12] <= decode_qqh:auto_generated.eq[12]
+eq[13] <= decode_qqh:auto_generated.eq[13]
+eq[14] <= decode_qqh:auto_generated.eq[14]
+eq[15] <= decode_qqh:auto_generated.eq[15]
+
+
+|ControlUnit|IR_DECODE:inst|lpm_decode:LPM_DECODE_component|decode_qqh:auto_generated
+clken => dffe1a[15].ENA
+clken => dffe1a[14].ENA
+clken => dffe1a[13].ENA
+clken => dffe1a[12].ENA
+clken => dffe1a[11].ENA
+clken => dffe1a[10].ENA
+clken => dffe1a[9].ENA
+clken => dffe1a[8].ENA
+clken => dffe1a[7].ENA
+clken => dffe1a[6].ENA
+clken => dffe1a[5].ENA
+clken => dffe1a[4].ENA
+clken => dffe1a[3].ENA
+clken => dffe1a[2].ENA
+clken => dffe1a[1].ENA
+clken => dffe1a[0].ENA
+clock => dffe1a[15].CLK
+clock => dffe1a[14].CLK
+clock => dffe1a[13].CLK
+clock => dffe1a[12].CLK
+clock => dffe1a[11].CLK
+clock => dffe1a[10].CLK
+clock => dffe1a[9].CLK
+clock => dffe1a[8].CLK
+clock => dffe1a[7].CLK
+clock => dffe1a[6].CLK
+clock => dffe1a[5].CLK
+clock => dffe1a[4].CLK
+clock => dffe1a[3].CLK
+clock => dffe1a[2].CLK
+clock => dffe1a[1].CLK
+clock => dffe1a[0].CLK
+data[0] => w_anode102w[1].IN1
+data[0] => w_anode112w[1].IN0
+data[0] => w_anode122w[1].IN1
+data[0] => w_anode132w[1].IN0
+data[0] => w_anode142w[1].IN1
+data[0] => w_anode152w[1].IN0
+data[0] => w_anode162w[1].IN1
+data[0] => w_anode21w[1].IN1
+data[0] => w_anode31w[1].IN0
+data[0] => w_anode41w[1].IN1
+data[0] => w_anode4w[1].IN0
+data[0] => w_anode51w[1].IN0
+data[0] => w_anode61w[1].IN1
+data[0] => w_anode71w[1].IN0
+data[0] => w_anode81w[1].IN1
+data[0] => w_anode91w[1].IN0
+data[1] => w_anode102w[2].IN0
+data[1] => w_anode112w[2].IN1
+data[1] => w_anode122w[2].IN1
+data[1] => w_anode132w[2].IN0
+data[1] => w_anode142w[2].IN0
+data[1] => w_anode152w[2].IN1
+data[1] => w_anode162w[2].IN1
+data[1] => w_anode21w[2].IN0
+data[1] => w_anode31w[2].IN1
+data[1] => w_anode41w[2].IN1
+data[1] => w_anode4w[2].IN0
+data[1] => w_anode51w[2].IN0
+data[1] => w_anode61w[2].IN0
+data[1] => w_anode71w[2].IN1
+data[1] => w_anode81w[2].IN1
+data[1] => w_anode91w[2].IN0
+data[2] => w_anode102w[3].IN0
+data[2] => w_anode112w[3].IN0
+data[2] => w_anode122w[3].IN0
+data[2] => w_anode132w[3].IN1
+data[2] => w_anode142w[3].IN1
+data[2] => w_anode152w[3].IN1
+data[2] => w_anode162w[3].IN1
+data[2] => w_anode21w[3].IN0
+data[2] => w_anode31w[3].IN0
+data[2] => w_anode41w[3].IN0
+data[2] => w_anode4w[3].IN0
+data[2] => w_anode51w[3].IN1
+data[2] => w_anode61w[3].IN1
+data[2] => w_anode71w[3].IN1
+data[2] => w_anode81w[3].IN1
+data[2] => w_anode91w[3].IN0
+data[3] => enable_wire1.IN0
+data[3] => w_anode102w[1].IN0
+data[3] => w_anode112w[1].IN0
+data[3] => w_anode122w[1].IN0
+data[3] => w_anode132w[1].IN0
+data[3] => w_anode142w[1].IN0
+data[3] => w_anode152w[1].IN0
+data[3] => w_anode162w[1].IN0
+data[3] => w_anode91w[1].IN0
+eq[0] <= dffe1a[0].DB_MAX_OUTPUT_PORT_TYPE
+eq[1] <= dffe1a[1].DB_MAX_OUTPUT_PORT_TYPE
+eq[2] <= dffe1a[2].DB_MAX_OUTPUT_PORT_TYPE
+eq[3] <= dffe1a[3].DB_MAX_OUTPUT_PORT_TYPE
+eq[4] <= dffe1a[4].DB_MAX_OUTPUT_PORT_TYPE
+eq[5] <= dffe1a[5].DB_MAX_OUTPUT_PORT_TYPE
+eq[6] <= dffe1a[6].DB_MAX_OUTPUT_PORT_TYPE
+eq[7] <= dffe1a[7].DB_MAX_OUTPUT_PORT_TYPE
+eq[8] <= dffe1a[8].DB_MAX_OUTPUT_PORT_TYPE
+eq[9] <= dffe1a[9].DB_MAX_OUTPUT_PORT_TYPE
+eq[10] <= dffe1a[10].DB_MAX_OUTPUT_PORT_TYPE
+eq[11] <= dffe1a[11].DB_MAX_OUTPUT_PORT_TYPE
+eq[12] <= dffe1a[12].DB_MAX_OUTPUT_PORT_TYPE
+eq[13] <= dffe1a[13].DB_MAX_OUTPUT_PORT_TYPE
+eq[14] <= dffe1a[14].DB_MAX_OUTPUT_PORT_TYPE
+eq[15] <= dffe1a[15].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ControlUnit|SC_DECODE:inst3
+data[0] => lpm_decode:LPM_DECODE_component.data[0]
+data[1] => lpm_decode:LPM_DECODE_component.data[1]
+data[2] => lpm_decode:LPM_DECODE_component.data[2]
+eq0 <= lpm_decode:LPM_DECODE_component.eq[0]
+eq1 <= lpm_decode:LPM_DECODE_component.eq[1]
+eq2 <= lpm_decode:LPM_DECODE_component.eq[2]
+eq3 <= lpm_decode:LPM_DECODE_component.eq[3]
+eq4 <= lpm_decode:LPM_DECODE_component.eq[4]
+eq5 <= lpm_decode:LPM_DECODE_component.eq[5]
+eq6 <= lpm_decode:LPM_DECODE_component.eq[6]
+eq7 <= lpm_decode:LPM_DECODE_component.eq[7]
+
+
+|ControlUnit|SC_DECODE:inst3|lpm_decode:LPM_DECODE_component
+data[0] => decode_5af:auto_generated.data[0]
+data[1] => decode_5af:auto_generated.data[1]
+data[2] => decode_5af:auto_generated.data[2]
+enable => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+eq[0] <= decode_5af:auto_generated.eq[0]
+eq[1] <= decode_5af:auto_generated.eq[1]
+eq[2] <= decode_5af:auto_generated.eq[2]
+eq[3] <= decode_5af:auto_generated.eq[3]
+eq[4] <= decode_5af:auto_generated.eq[4]
+eq[5] <= decode_5af:auto_generated.eq[5]
+eq[6] <= decode_5af:auto_generated.eq[6]
+eq[7] <= decode_5af:auto_generated.eq[7]
+
+
+|ControlUnit|SC_DECODE:inst3|lpm_decode:LPM_DECODE_component|decode_5af:auto_generated
+data[0] => w_anode19w[1].IN1
+data[0] => w_anode1w[1].IN0
+data[0] => w_anode30w[1].IN0
+data[0] => w_anode41w[1].IN1
+data[0] => w_anode52w[1].IN0
+data[0] => w_anode63w[1].IN1
+data[0] => w_anode74w[1].IN0
+data[0] => w_anode85w[1].IN1
+data[1] => w_anode19w[2].IN0
+data[1] => w_anode1w[2].IN0
+data[1] => w_anode30w[2].IN1
+data[1] => w_anode41w[2].IN1
+data[1] => w_anode52w[2].IN0
+data[1] => w_anode63w[2].IN0
+data[1] => w_anode74w[2].IN1
+data[1] => w_anode85w[2].IN1
+data[2] => w_anode19w[3].IN0
+data[2] => w_anode1w[3].IN0
+data[2] => w_anode30w[3].IN0
+data[2] => w_anode41w[3].IN0
+data[2] => w_anode52w[3].IN1
+data[2] => w_anode63w[3].IN1
+data[2] => w_anode74w[3].IN1
+data[2] => w_anode85w[3].IN1
+eq[0] <= w_anode1w[3].DB_MAX_OUTPUT_PORT_TYPE
+eq[1] <= w_anode19w[3].DB_MAX_OUTPUT_PORT_TYPE
+eq[2] <= w_anode30w[3].DB_MAX_OUTPUT_PORT_TYPE
+eq[3] <= w_anode41w[3].DB_MAX_OUTPUT_PORT_TYPE
+eq[4] <= w_anode52w[3].DB_MAX_OUTPUT_PORT_TYPE
+eq[5] <= w_anode63w[3].DB_MAX_OUTPUT_PORT_TYPE
+eq[6] <= w_anode74w[3].DB_MAX_OUTPUT_PORT_TYPE
+eq[7] <= w_anode85w[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ControlUnit|SC:inst1212
+clock => lpm_counter:LPM_COUNTER_component.clock
+sclr => lpm_counter:LPM_COUNTER_component.sclr
+q[0] <= lpm_counter:LPM_COUNTER_component.q[0]
+q[1] <= lpm_counter:LPM_COUNTER_component.q[1]
+q[2] <= lpm_counter:LPM_COUNTER_component.q[2]
+
+
+|ControlUnit|SC:inst1212|lpm_counter:LPM_COUNTER_component
+clock => cntr_k6i:auto_generated.clock
+clk_en => ~NO_FANOUT~
+cnt_en => ~NO_FANOUT~
+updown => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => cntr_k6i:auto_generated.sclr
+sset => ~NO_FANOUT~
+sconst => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+data[0] => ~NO_FANOUT~
+data[1] => ~NO_FANOUT~
+data[2] => ~NO_FANOUT~
+cin => ~NO_FANOUT~
+q[0] <= cntr_k6i:auto_generated.q[0]
+q[1] <= cntr_k6i:auto_generated.q[1]
+q[2] <= cntr_k6i:auto_generated.q[2]
+cout <= <GND>
+eq[0] <= <GND>
+eq[1] <= <GND>
+eq[2] <= <GND>
+eq[3] <= <GND>
+eq[4] <= <GND>
+eq[5] <= <GND>
+eq[6] <= <GND>
+eq[7] <= <GND>
+eq[8] <= <GND>
+eq[9] <= <GND>
+eq[10] <= <GND>
+eq[11] <= <GND>
+eq[12] <= <GND>
+eq[13] <= <GND>
+eq[14] <= <GND>
+eq[15] <= <GND>
+
+
+|ControlUnit|SC:inst1212|lpm_counter:LPM_COUNTER_component|cntr_k6i:auto_generated
+clock => counter_reg_bit[2].CLK
+clock => counter_reg_bit[1].CLK
+clock => counter_reg_bit[0].CLK
+q[0] <= counter_reg_bit[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= counter_reg_bit[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= counter_reg_bit[2].DB_MAX_OUTPUT_PORT_TYPE
+sclr => _.IN0
+sclr => _.IN0
+sclr => _.IN0
+
+
+|ControlUnit|74147:inst118
+DN <= 68.DB_MAX_OUTPUT_PORT_TYPE
+8N => 63.IN0
+9N => 65.IN0
+CN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+4N => 57.IN0
+5N => 60.IN0
+6N => 62.IN0
+7N => 114.IN0
+BN <= 8.DB_MAX_OUTPUT_PORT_TYPE
+2N => 55.IN0
+3N => 56.IN0
+AN <= 7.DB_MAX_OUTPUT_PORT_TYPE
+1N => 53.IN0
+
+
+|ControlUnit|REG_DECODE:inst5
+data[0] => lpm_decode:LPM_DECODE_component.data[0]
+data[1] => lpm_decode:LPM_DECODE_component.data[1]
+eq0 <= lpm_decode:LPM_DECODE_component.eq[0]
+eq1 <= lpm_decode:LPM_DECODE_component.eq[1]
+eq2 <= lpm_decode:LPM_DECODE_component.eq[2]
+eq3 <= lpm_decode:LPM_DECODE_component.eq[3]
+
+
+|ControlUnit|REG_DECODE:inst5|lpm_decode:LPM_DECODE_component
+data[0] => decode_0af:auto_generated.data[0]
+data[1] => decode_0af:auto_generated.data[1]
+enable => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+eq[0] <= decode_0af:auto_generated.eq[0]
+eq[1] <= decode_0af:auto_generated.eq[1]
+eq[2] <= decode_0af:auto_generated.eq[2]
+eq[3] <= decode_0af:auto_generated.eq[3]
+
+
+|ControlUnit|REG_DECODE:inst5|lpm_decode:LPM_DECODE_component|decode_0af:auto_generated
+data[0] => w_anode15w[1].IN1
+data[0] => w_anode1w[1].IN0
+data[0] => w_anode24w[1].IN0
+data[0] => w_anode33w[1].IN1
+data[1] => w_anode15w[2].IN0
+data[1] => w_anode1w[2].IN0
+data[1] => w_anode24w[2].IN1
+data[1] => w_anode33w[2].IN1
+eq[0] <= w_anode1w[2].DB_MAX_OUTPUT_PORT_TYPE
+eq[1] <= w_anode15w[2].DB_MAX_OUTPUT_PORT_TYPE
+eq[2] <= w_anode24w[2].DB_MAX_OUTPUT_PORT_TYPE
+eq[3] <= w_anode33w[2].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ControlUnit|74147:inst24
+DN <= 68.DB_MAX_OUTPUT_PORT_TYPE
+8N => 63.IN0
+9N => 65.IN0
+CN <= 9.DB_MAX_OUTPUT_PORT_TYPE
+4N => 57.IN0
+5N => 60.IN0
+6N => 62.IN0
+7N => 114.IN0
+BN <= 8.DB_MAX_OUTPUT_PORT_TYPE
+2N => 55.IN0
+3N => 56.IN0
+AN <= 7.DB_MAX_OUTPUT_PORT_TYPE
+1N => 53.IN0
+
+

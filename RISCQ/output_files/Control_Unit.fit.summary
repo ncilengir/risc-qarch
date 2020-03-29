@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu May 23 10:36:08 2019
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : Control_Unit
+Top-level Entity Name : Control_Unit
+Family : Cyclone III
+Device : EP3C16F484C6
+Timing Models : Final
+Total logic elements : 191 / 15,408 ( 1 % )
+    Total combinational functions : 190 / 15,408 ( 1 % )
+    Dedicated logic registers : 66 / 15,408 ( < 1 % )
+Total registers : 66
+Total pins : 43 / 347 ( 12 % )
+Total virtual pins : 0
+Total memory bits : 128 / 516,096 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 112 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

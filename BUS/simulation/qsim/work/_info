@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/derectus/Documents/deuceng/computer-architecture/DEUARC/simulation/qsim
+vDEUARC_BUSYSTEM
+Z1 IV?6mO<:gY86lGV7aAHN1;3
+Z2 VXVz8gen`mOEB5B8ZJ3`Qb3
+Z3 d/home/derectus/Documents/deuceng/computer-architecture/DEUARC/simulation/qsim
+Z4 w1555028437
+Z5 8DEUARC_BUSYSTEM.vo
+Z6 FDEUARC_BUSYSTEM.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|DEUARC_BUSYSTEM.vo|
+Z9 o-work work -O0
+Z10 n@d@e@u@a@r@c_@b@u@s@y@s@t@e@m
+!i10b 1
+Z11 !s100 @CiTDkE^K5_?U`3IiR9i^3
+!s85 0
+Z12 !s108 1555028437.734288
+Z13 !s107 DEUARC_BUSYSTEM.vo|
+!s101 -O0
+vDEUARC_BUSYSTEM_vlg_check_tst
+!i10b 1
+Z14 !s100 m:eb[A3Cl2?@9?TULKXG82
+Z15 ImC;jRnDHfADGeJKEjK@Nz3
+Z16 VOH[76AZhE1VkeG^=0ENdM1
+R3
+Z17 w1555028433
+Z18 82016510111_Nuri_Cilengir.vwf.vt
+Z19 F2016510111_Nuri_Cilengir.vwf.vt
+L0 71
+R7
+r1
+!s85 0
+31
+Z20 !s108 1555028437.799569
+Z21 !s107 2016510111_Nuri_Cilengir.vwf.vt|
+Z22 !s90 -work|work|2016510111_Nuri_Cilengir.vwf.vt|
+!s101 -O0
+R9
+Z23 n@d@e@u@a@r@c_@b@u@s@y@s@t@e@m_vlg_check_tst
+vDEUARC_BUSYSTEM_vlg_sample_tst
+!i10b 1
+Z24 !s100 JmFcn4hXI1gLbz]HBzBJ80
+Z25 I_BR]>3?Ab4]?<7@>Oa`[^1
+Z26 VkMHL>V4gnUcG`MLM]oY4@0
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 n@d@e@u@a@r@c_@b@u@s@y@s@t@e@m_vlg_sample_tst
+vDEUARC_BUSYSTEM_vlg_vec_tst
+!i10b 1
+Z28 !s100 Z]X9P_<j0zV?jjFkY[Z]z3
+Z29 IeGcVagVTXCKWS^RPJ0Z[j0
+Z30 VziOh:BUj@XzKkI3?zXN8a3
+R3
+R17
+R18
+R19
+Z31 L0 299
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z32 n@d@e@u@a@r@c_@b@u@s@y@s@t@e@m_vlg_vec_tst

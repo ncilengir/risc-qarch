@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Apr 12 03:20:04 2019
+Quartus II 32-bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : DEUARC_BUSYSTEM
+Top-level Entity Name : DEUARC_BUSYSTEM
+Family : Cyclone III
+Device : EP3C16F484C6
+Timing Models : Final
+Total logic elements : 126 / 15,408 ( < 1 % )
+    Total combinational functions : 126 / 15,408 ( < 1 % )
+    Dedicated logic registers : 39 / 15,408 ( < 1 % )
+Total registers : 39
+Total pins : 30 / 347 ( 9 % )
+Total virtual pins : 0
+Total memory bits : 288 / 516,096 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 112 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

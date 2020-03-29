@@ -1,0 +1,202 @@
+Flow report for DEUARC_BUSYSTEM
+Fri Apr 12 03:20:37 2019
+Quartus II 32-bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Fri Apr 12 03:20:37 2019       ;
+; Quartus II 32-bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Full Version ;
+; Revision Name                      ; DEUARC_BUSYSTEM                             ;
+; Top-level Entity Name              ; DEUARC_BUSYSTEM                             ;
+; Family                             ; Cyclone III                                 ;
+; Device                             ; EP3C16F484C6                                ;
+; Timing Models                      ; Final                                       ;
+; Total logic elements               ; 126 / 15,408 ( < 1 % )                      ;
+;     Total combinational functions  ; 126 / 15,408 ( < 1 % )                      ;
+;     Dedicated logic registers      ; 39 / 15,408 ( < 1 % )                       ;
+; Total registers                    ; 39                                          ;
+; Total pins                         ; 30 / 347 ( 9 % )                            ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 288 / 516,096 ( < 1 % )                     ;
+; Embedded Multiplier 9-bit elements ; 0 / 112 ( 0 % )                             ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                               ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 04/12/2019 03:19:47 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; DEUARC_BUSYSTEM     ;
++-------------------+---------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                    ;
++-------------------------------------+--------------------------------------------------------------------------------+---------------+-------------+----------------+
+; Assignment Name                     ; Value                                                                          ; Default Value ; Entity Name ; Section Id     ;
++-------------------------------------+--------------------------------------------------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 0.155502838724242                                                              ; --            ; --          ; --             ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST     ; On                                                                             ; --            ; --          ; eda_simulation ;
+; EDA_NETLIST_WRITER_OUTPUT_DIR       ; /home/derectus/Documents/deuceng/computer-architecture/DEUARC/simulation/qsim/ ; --            ; --          ; eda_simulation ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                                                                    ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)                                                      ; <None>        ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_DECODE                                                                     ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_DECODE                                                                     ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_COUNTER                                                                    ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_COUNTER                                                                    ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_COUNTER                                                                    ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_COUNTER                                                                    ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_COUNTER                                                                    ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_COUNTER                                                                    ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_COUNTER                                                                    ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_COUNTER                                                                    ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_COUNTER                                                                    ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; RAM: 1-PORT                                                                    ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; ROM: 1-PORT                                                                    ; --            ; --          ; --             ;
+; IP_TOOL_NAME                        ; LPM_MUX                                                                        ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.1                                                                           ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.1                                                                           ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.1                                                                           ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.1                                                                           ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.1                                                                           ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.1                                                                           ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.1                                                                           ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.1                                                                           ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.1                                                                           ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.1                                                                           ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.1                                                                           ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.1                                                                           ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.1                                                                           ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                     ; 13.1                                                                           ; --            ; --          ; --             ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                                                             ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                                                              ; --            ; --          ; --             ;
+; MISC_FILE                           ; INR.tdf                                                                        ; --            ; --          ; --             ;
+; MISC_FILE                           ; INR.bsf                                                                        ; --            ; --          ; --             ;
+; MISC_FILE                           ; INR.inc                                                                        ; --            ; --          ; --             ;
+; MISC_FILE                           ; CLR.tdf                                                                        ; --            ; --          ; --             ;
+; MISC_FILE                           ; CLR.bsf                                                                        ; --            ; --          ; --             ;
+; MISC_FILE                           ; CLR.inc                                                                        ; --            ; --          ; --             ;
+; MISC_FILE                           ; AR.tdf                                                                         ; --            ; --          ; --             ;
+; MISC_FILE                           ; AR.bsf                                                                         ; --            ; --          ; --             ;
+; MISC_FILE                           ; AR.inc                                                                         ; --            ; --          ; --             ;
+; MISC_FILE                           ; PC.tdf                                                                         ; --            ; --          ; --             ;
+; MISC_FILE                           ; PC.bsf                                                                         ; --            ; --          ; --             ;
+; MISC_FILE                           ; PC.inc                                                                         ; --            ; --          ; --             ;
+; MISC_FILE                           ; IR.tdf                                                                         ; --            ; --          ; --             ;
+; MISC_FILE                           ; IR.bsf                                                                         ; --            ; --          ; --             ;
+; MISC_FILE                           ; IR.inc                                                                         ; --            ; --          ; --             ;
+; MISC_FILE                           ; R0.bsf                                                                         ; --            ; --          ; --             ;
+; MISC_FILE                           ; R0.cmp                                                                         ; --            ; --          ; --             ;
+; MISC_FILE                           ; R1.bsf                                                                         ; --            ; --          ; --             ;
+; MISC_FILE                           ; R1.cmp                                                                         ; --            ; --          ; --             ;
+; MISC_FILE                           ; R2.bsf                                                                         ; --            ; --          ; --             ;
+; MISC_FILE                           ; R2.cmp                                                                         ; --            ; --          ; --             ;
+; MISC_FILE                           ; R3.bsf                                                                         ; --            ; --          ; --             ;
+; MISC_FILE                           ; R3.cmp                                                                         ; --            ; --          ; --             ;
+; MISC_FILE                           ; INPR.tdf                                                                       ; --            ; --          ; --             ;
+; MISC_FILE                           ; INPR.bsf                                                                       ; --            ; --          ; --             ;
+; MISC_FILE                           ; INPR.inc                                                                       ; --            ; --          ; --             ;
+; MISC_FILE                           ; OUTR.tdf                                                                       ; --            ; --          ; --             ;
+; MISC_FILE                           ; OUTR.bsf                                                                       ; --            ; --          ; --             ;
+; MISC_FILE                           ; OUTR.inc                                                                       ; --            ; --          ; --             ;
+; MISC_FILE                           ; RAM.tdf                                                                        ; --            ; --          ; --             ;
+; MISC_FILE                           ; RAM.bsf                                                                        ; --            ; --          ; --             ;
+; MISC_FILE                           ; RAM.inc                                                                        ; --            ; --          ; --             ;
+; MISC_FILE                           ; ROM.tdf                                                                        ; --            ; --          ; --             ;
+; MISC_FILE                           ; ROM.bsf                                                                        ; --            ; --          ; --             ;
+; MISC_FILE                           ; ROM.inc                                                                        ; --            ; --          ; --             ;
+; MISC_FILE                           ; BUS.tdf                                                                        ; --            ; --          ; --             ;
+; MISC_FILE                           ; BUS.bsf                                                                        ; --            ; --          ; --             ;
+; MISC_FILE                           ; BUS.inc                                                                        ; --            ; --          ; --             ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                                                           ; --            ; --          ; --             ;
+; PARTITION_COLOR                     ; 16764057                                                                       ; --            ; --          ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                                                          ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                                                         ; --            ; --          ; Top            ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                                                                   ; --            ; --          ; --             ;
++-------------------------------------+--------------------------------------------------------------------------------+---------------+-------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:04     ; 1.0                     ; 446 MB              ; 00:00:04                           ;
+; Fitter                    ; 00:00:11     ; 1.3                     ; 650 MB              ; 00:00:13                           ;
+; Assembler                 ; 00:00:01     ; 1.0                     ; 328 MB              ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 448 MB              ; 00:00:03                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 338 MB              ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 344 MB              ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 344 MB              ; 00:00:01                           ;
+; Total                     ; 00:00:21     ; --                      ; --                  ; 00:00:24                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++-------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                           ;
++---------------------------+------------------+-------------+-------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name     ; OS Version  ; Processor type ;
++---------------------------+------------------+-------------+-------------+----------------+
+; Analysis & Synthesis      ; l0ser            ; Fedora Core ; Fedora Core ; x86_64         ;
+; Fitter                    ; l0ser            ; Fedora Core ; Fedora Core ; x86_64         ;
+; Assembler                 ; l0ser            ; Fedora Core ; Fedora Core ; x86_64         ;
+; TimeQuest Timing Analyzer ; l0ser            ; Fedora Core ; Fedora Core ; x86_64         ;
+; EDA Netlist Writer        ; l0ser            ; Fedora Core ; Fedora Core ; x86_64         ;
+; EDA Netlist Writer        ; l0ser            ; Fedora Core ; Fedora Core ; x86_64         ;
+; EDA Netlist Writer        ; l0ser            ; Fedora Core ; Fedora Core ; x86_64         ;
++---------------------------+------------------+-------------+-------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off DEUARC_BUSYSTEM -c DEUARC_BUSYSTEM
+quartus_fit --read_settings_files=off --write_settings_files=off DEUARC_BUSYSTEM -c DEUARC_BUSYSTEM
+quartus_asm --read_settings_files=off --write_settings_files=off DEUARC_BUSYSTEM -c DEUARC_BUSYSTEM
+quartus_sta DEUARC_BUSYSTEM -c DEUARC_BUSYSTEM
+quartus_eda --read_settings_files=off --write_settings_files=off DEUARC_BUSYSTEM -c DEUARC_BUSYSTEM
+quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog DEUARC_BUSYSTEM -c DEUARC_BUSYSTEM --vector_source=/home/derectus/Documents/deuceng/computer-architecture/DEUARC/2016510111_Nuri_Cilengir.vwf --testbench_file=/home/derectus/Documents/deuceng/computer-architecture/DEUARC/simulation/qsim/2016510111_Nuri_Cilengir.vwf.vt
+quartus_eda --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=/home/derectus/Documents/deuceng/computer-architecture/DEUARC/simulation/qsim/ DEUARC_BUSYSTEM -c DEUARC_BUSYSTEM
+
+
+

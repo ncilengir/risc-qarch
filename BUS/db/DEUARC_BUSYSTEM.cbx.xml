@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="DEUARC_BUSYSTEM">
+		<CBX_INST_ENTRY INSTANCE_NAME="|DEUARC_BUSYSTEM|INPR:inst13|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_pqj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DEUARC_BUSYSTEM|ROM:inst7|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_c8a1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DEUARC_BUSYSTEM|AR:inst3|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_qqj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DEUARC_BUSYSTEM|INR:inst1|lpm_decode:LPM_DECODE_component" CBX_FILE_NAME="decode_lbf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DEUARC_BUSYSTEM|R0:inst8|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_pqj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DEUARC_BUSYSTEM|R2:inst11|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_pqj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DEUARC_BUSYSTEM|RAM:inst6|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_dfi1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DEUARC_BUSYSTEM|BUS:inst9|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_7qc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DEUARC_BUSYSTEM|CLR:inst2|lpm_decode:LPM_DECODE_component" CBX_FILE_NAME="decode_lbf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DEUARC_BUSYSTEM|OUTR:inst14|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_pqj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DEUARC_BUSYSTEM|PC:inst4|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_qqj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DEUARC_BUSYSTEM|IR:inst5|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_jdj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DEUARC_BUSYSTEM|R1:inst10|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_pqj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DEUARC_BUSYSTEM|R3:inst12|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_pqj.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DEUARC_BUSYSTEM|load:inst|lpm_decode:LPM_DECODE_component" CBX_FILE_NAME="decode_lbf.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

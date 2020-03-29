@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Apr 12 03:19:51 2019
+Quartus II 32-bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : DEUARC_BUSYSTEM
+Top-level Entity Name : DEUARC_BUSYSTEM
+Family : Cyclone III
+Total logic elements : 126
+    Total combinational functions : 126
+    Dedicated logic registers : 39
+Total registers : 39
+Total pins : 30
+Total virtual pins : 0
+Total memory bits : 288
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
