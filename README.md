@@ -89,6 +89,7 @@ gates. It should produce operation signals and time periods for fetching, decodi
 ![Control Unit Counters](/img/CU-I.PNG)
 
  - ***Also Sequences Counter Clear***
+ 
  ![Control Unit SC](/img/CU-III.PNG)
 
 ### ALU Operations
