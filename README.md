@@ -2,6 +2,28 @@
 # RISCQ
 Designed a basic computer that called **RISCQ**. **RISCQ** has registers, two memories, arithmetic and logic unit, control unit and bus system.
 
+
+**Contents**
+
+ 1.  [Registers](https://github.com/derectus/risc-qarch#registers)
+ 2.  [Memories](https://github.com/derectus/risc-qarch#memories)
+ 3. [Common Bus System](https://github.com/derectus/risc-qarch#common-bus-system)
+ 4. [Arithmetic and Logic Unit](https://github.com/derectus/risc-qarch#arithmetic-and-logic-unit)
+ 5. [Instruction set and micro-operations table](https://github.com/derectus/risc-qarch#instruction-set-and-micro-operations-table)
+	 - [Instruction Set](https://github.com/derectus/risc-qarch#instruction-set)
+	 - [Control functions and Microoperations](https://github.com/derectus/risc-qarch#control-functions-and-microoperations)
+ 6. [Control Unit](https://github.com/derectus/risc-qarch#control-unit)
+	 - [Instructions and Sequences Counter](https://github.com/derectus/risc-qarch#instructions-and-sequences-counter--inputs)
+	 -  [ALU Operations](https://github.com/derectus/risc-qarch#alu-operations)
+	 -  [BUS Load/Read](https://github.com/derectus/risc-qarch#bus-loadread)
+	 - [Register Operations](https://github.com/derectus/risc-qarch#register-operations)
+	 - [Program Counter Load Operation](https://github.com/derectus/risc-qarch#program-counter-load-operation)
+	 - [Other Operations (Instructions, program counter and etc.)](https://github.com/derectus/risc-qarch#other-operations-instructions-program-counter-and-etc)
+ 7. [Combined all components](https://github.com/derectus/risc-qarch#combined-all-components)
+ 8. [Compling and Running](https://github.com/derectus/risc-qarch#compling-and-running)
+
+
+
 ## Registers
 **RISCQ** has 9 registers which are Address Register, Program Counter, Input Register, Output
 Register, Instruction Register and 4 general purpose registers.
