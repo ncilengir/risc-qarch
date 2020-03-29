@@ -107,9 +107,9 @@ gates. It should produce operation signals and time periods for fetching, decodi
 ## Compling and Running 
 
 #### Sample 
-![RISCQ Sample ](/img/sample.PNG)
+![RISCQ Sample ](/img/sample.png)
 
-![RISCQ Sample 1](/img/sample2.PNG)
+![RISCQ Sample 1](/img/sample2.png)
 
 
 
