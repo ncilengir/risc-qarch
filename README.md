@@ -109,7 +109,7 @@ gates. It should produce operation signals and time periods for fetching, decodi
 #### Sample 
 ![RISCQ Sample ](/img/sample.PNG)
 
-![RISCQ Sample 1](/img/sample1.PNG)
+![RISCQ Sample 1](/img/sample2.PNG)
 
 
 
